@@ -2,26 +2,45 @@ import { Component } from 'react';
 import './css//bootstrap.min.css';
 import './App.css';
 
-function sayHello(){
-    return "Hello World"
+function Message(){
+    return<p>Hello from Message Component</p>
 }
-
 
 class App extends Component{
-
-    bilangHalo(){
-        return "Halo Dunia"
-    }
-
     render(){
         return(
-            <>
-            <p>sayHello : <b>{sayHello()}</b></p>
-            <p>bilangHalo : <b>{this.bilangHalo()}</b></p>
-            </>
+            <div>
+                <Message />
+            </div>
         )
     }
+
 }
+
+
+
+
+// *Latihan 5.1
+// function sayHello(){
+//     return "Hello World"
+// }
+
+
+// class App extends Component{
+
+//     bilangHalo(){
+//         return "Halo Dunia"
+//     }
+
+//     render(){
+//         return(
+//             <>
+//             <p>sayHello : <b>{sayHello()}</b></p>
+//             <p>bilangHalo : <b>{this.bilangHalo()}</b></p>
+//             </>
+//         )
+//     }
+// }
 
 
 
