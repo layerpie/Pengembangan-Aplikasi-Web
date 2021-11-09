@@ -1,6 +1,7 @@
 import { Component } from 'react';
 import './css//bootstrap.min.css';
 import './App.css';
+import Home from './views/home/home';
 
 function Message(){
     return<p>Hello from Message Component</p>
@@ -11,6 +12,7 @@ class App extends Component{
         return(
             <div>
                 <Message />
+                <Home />
             </div>
         )
     }
