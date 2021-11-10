@@ -3,16 +3,16 @@ import './css//bootstrap.min.css';
 import './App.css';
 import Home from './views/home/home';
 
-function Message(){
-    return<p>Hello from Message Component</p>
+function Message(props){
+    return<p>Hello {props.name}</p>
 }
 
 class App extends Component{
     render(){
         return(
             <div>
-                <Message />
-                <Home />
+                <Message name="Ulrich" />
+                <Home name= "Eden Hazard"/>
             </div>
         )
     }

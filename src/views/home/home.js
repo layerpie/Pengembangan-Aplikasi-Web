@@ -5,7 +5,7 @@ export default class Home extends React.Component{
        return(
            <div>
                <h2>Title Home Component</h2>
-               <p>Content Home Component</p>
+               <p>Hello my name is {this.props.name}</p>
            </div>
        )
    } 
