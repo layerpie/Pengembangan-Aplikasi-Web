@@ -2,16 +2,13 @@ import React, { Component } from 'react';
 import './css//bootstrap.min.css';
 import './App.css';
 import Card from './component/Card/Card';
-
+import Input from './component/Input/Input';
 
 export default class Main extends Component{
     render(){
         return(
-            <Card>
-                <p>Build encapsulted components that manage their own state, then compose them to make complex UIs.</p>
-
-            
-            </Card>
+            <Input>
+            </Input>
         );
     }
 }
