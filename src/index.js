@@ -3,11 +3,19 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+<<<<<<< HEAD
 import Main from './Main';
 
 ReactDOM.render(
   <React.StrictMode>
     <Main />
+=======
+import Input from './component/Input/Input';
+
+ReactDOM.render(
+  <React.StrictMode>
+    <Input />
+>>>>>>> 99807405286df7fe82626b3b2515b6cb926eacb2
   </React.StrictMode>,
   document.getElementById('root')
 );
